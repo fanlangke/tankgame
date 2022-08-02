@@ -59,7 +59,7 @@ public class MyPanel extends JPanel implements KeyListener,Runnable{
                 break;
         }
 
-            image1=Toolkit.getDefaultToolkit().getImage(MyPanel.class.getResource("bomb.png"));
+            image1=Toolkit.getDefaultToolkit().getImage(MyPanel.class.getResource("/bomb.png"));
             new AePlayWave("src/BGM.wav").start();
 
 
